@@ -1,9 +1,9 @@
 N=int(input())
 K=int(input())
-sum=0
 l=[]
+sum=0
 for i in range(N):
-    x= int(input())
+    x=int(input())
     l.append(x)
 for i in range(K):
     sum=sum+l[i]
